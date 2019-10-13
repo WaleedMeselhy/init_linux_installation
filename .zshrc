@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 prompt_context() {} 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
+alias shopt='/usr/bin/shopt'
 alias rc=reset && clear
 alias dev='source ~/work/dev/bin/activate'
 alias ddev=deactivate

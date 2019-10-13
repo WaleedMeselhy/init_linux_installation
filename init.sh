@@ -28,6 +28,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 fi
 EOF
 
+sudo cp $ABSDIR/shopt /usr/bin/shopt
+sudo chmod +x /usr/bin/shopt
+
 sudo -i -u waleed bash << EOF
 cp $ABSDIR/.zshrc ~/.zshrc
 EOF
