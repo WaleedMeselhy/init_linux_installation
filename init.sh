@@ -11,10 +11,20 @@ sudo dnf -y install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-non
 sudo dnf upgrade -y
 
 # utilities
-sudo dnf install -y arandr ffmpeg
+sudo dnf install -y arandr \
+    ffmpeg \
+    keepass \
+    pcmanfm \
+    okular \
+    simplenote \
+    teamviewer \
+    snapd \
+    peek \
+    vlc \
+    torbrowser-launcher
 
 #fonts
-sudo dnf install -y fira-code-fonts fontawesome-fonts
+sudo dnf install -y fira-code-fonts fontawesome-fonts powerline-fonts
 
 # docker
 curl -fsSL https://get.docker.com -o get-docker.sh
@@ -22,27 +32,10 @@ sudo sh get-docker.sh
 sudo usermod -aG docker $USER
 sudo dnf install -y docker-compose
 
-
-
-docker docker-compose
-git-cola
-htop
-keepass
-meld
-nnn
-okular
-pcmanfm
-peek
-simplenote
-snapd
-teamviewer
+sudo dnf install -y git-cola meld code
 
 the_silver_searcher
-torbrowser-launcher-
-vlc
-code
-zsh \
-    fonts-powerline
+zsh  htop nnn
 
 chsh waleed -s $(which zsh)
 
