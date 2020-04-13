@@ -20,7 +20,7 @@ sudo dnf install -y fira-code-fonts fontawesome-fonts
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker $USER
-sudo dnf install docker-compose
+sudo dnf install -y docker-compose
 
 
 
