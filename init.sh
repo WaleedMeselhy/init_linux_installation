@@ -16,12 +16,14 @@ sudo dnf install -y arandr \
     keepass \
     pcmanfm \
     okular \
-    simplenote \
-    teamviewer \
     snapd \
     peek \
     vlc \
     torbrowser-launcher
+
+
+#  simplenote \
+#     teamviewer \
 
 #fonts
 sudo dnf install -y fira-code-fonts fontawesome-fonts powerline-fonts
