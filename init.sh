@@ -21,10 +21,10 @@ sudo dnf install -y arandr \
     vlc \
     torbrowser-launcher
 
+curl -fsSL https://download.teamviewer.com/download/linux/teamviewer.x86_64.rpm -o teamviewer.x86_64.rpm
+sudo dnf install -y teamviewer.x86_64.rpm
 
-#  simplenote \
-#     teamviewer \
-
+sudo snap install simplenote notepad-plus-plus
 #fonts
 sudo dnf install -y fira-code-fonts fontawesome-fonts powerline-fonts
 
